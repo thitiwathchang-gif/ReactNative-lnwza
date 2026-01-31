@@ -62,8 +62,25 @@ export default function Index() {
     <Text style={styles.linkText}>Location</Text>
 </Link>
 
+<Link href="/ant" style={styles.link}>
+        <Text>Go to Tabs (Animals)</Text>
+      </Link>
+      <Link href="/bird" style={styles.link}>
+        <Text>Go to Tabs (Animals)</Text>
+      </Link>
+      <Link href="/cat" style={styles.link}>
+        <Text>Go to Tabs (Animals)</Text>
+      </Link>
 
-
+      <Link href="/charmander" style={styles.link}>
+        <Text>Go to Quiz (Pokemon Tabs)</Text>
+      </Link>
+<Link href="/pikachu" style={styles.link}>
+        <Text>Go to Quiz (Pokemon Tabs)</Text>
+      </Link>
+      <Link href="/ivysaur" style={styles.link}>
+        <Text>Go to Quiz (Pokemon Tabs)</Text>
+      </Link>
     </View>
     </ScrollView>
   );
